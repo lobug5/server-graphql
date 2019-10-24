@@ -19,6 +19,7 @@ const typeDefs = `
     idVideo: Int,
     title: String
   }
+  
 
   type Query{
     channels: [Channel],
