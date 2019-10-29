@@ -35,6 +35,3 @@ const data = {
 exports.getData = function(collection, field, value){
   return data[collection].filter(element => element[field] === value);
 }
-exports.setData = function(collection, field, value){
-  return data[collection].push(element => element[filed] = value);
-}
